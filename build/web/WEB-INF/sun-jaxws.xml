@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<endpoints version="2.0" xmlns="http://java.sun.com/xml/ns/jax-ws/ri/runtime">
+  <endpoint implementation="com.WS.Login" name="Login" url-pattern="/Login"/>
+  <endpoint implementation="com.WS.Agent" name="Agent" url-pattern="/Agent"/>
+  <endpoint implementation="com.WS.Medical" name="Medical" url-pattern="/Medical"/>
+  <endpoint implementation="com.WS.Chirurgical" name="Chirurgical" url-pattern="/Chirurgical"/>
+  <endpoint implementation="com.WS.LABO" name="LABO" url-pattern="/LABO"/>
+  <endpoint implementation="com.WS.test" name="test" url-pattern="/test"/>
+</endpoints>
